@@ -1,6 +1,6 @@
 import paramiko
 
-host = '127.0.0.1'
+host = 'serveur-vulnerable'
 port = 3373
 
 
