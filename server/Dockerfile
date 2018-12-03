@@ -15,5 +15,3 @@ RUN rm sftpserver.tar.gz
 CMD [ "sftpserver", "-k", "rsa.key", "--host", "0.0.0.0", "-l", "DEBUG"]
 
 EXPOSE 3373
-# To execute the docker image you have to bind the port 3373 to some port in your system
-# we recommend the port 3373
