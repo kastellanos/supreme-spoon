@@ -10,3 +10,5 @@ docker run --network host <image name>
 ```
 
 - Second, follow the instructions in the client folder Readme
+
+docker run -d -p 3373:3373 --name serveur-vulnerable-x <image-name>
